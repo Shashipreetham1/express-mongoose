@@ -17,7 +17,7 @@ studentApp.post(
     console.log(studentDocument);
 
     //save
-    await studentDocument.sve();
+    await studentDocument.save();
     //send res
     res.send({ message: "New student created" });
   })
